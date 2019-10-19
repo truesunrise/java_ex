@@ -9,6 +9,7 @@ public class FlowEx29 {
 
             do {
                 // tmp % 10이 3의 배수인지 확인 (0제외)
+                // tmp % 10의 값이 0일 때도 참 => 'tmp % 10 != 0'을 &&로 연결하여 tmp % 10의 값이 0인 경우를 제외
                 if(tmp % 10 % 3 == 0 && tmp % 10 != 0) {
                     System.out.print("짝");
                 }
