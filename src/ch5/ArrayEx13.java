@@ -20,6 +20,7 @@ public class ArrayEx13 {
         String result = "";
 
         // 배열 hex에 저장된 문자를 하나씩 읽어서 그에 해당하는 이진수 표현을 배열 binary에서 얻어 result에 덧붙이고 그 결과를 화면에 출력
+        // (int) '0' = 48;
         for(int i = 0; i < hex.length; i++) {
             if(hex[i] >= '0' && hex[i] <= '9') {
                 result += binary[hex[i] - '0'];         // '8' - '0'의 결과는 8
