@@ -8,6 +8,7 @@ package ch5;
  *      ex) main 메서드가 담긴 클래스 이름이 ArrayEx16 가정 => java ArrayEx16 abc 123
  *      커맨드라인을 통해 입력된 두 문자열은 String 배열에 담겨서 ArrayEx16 클래스의 main 메서드의 매개변수(args)에 전달된다.
  *      main 메서드에서 args[0], args[1]와 같은 방식으로 문자열에 접근할 수 있다.
+ * - 커맨드 라인에 매개변수를 입력하지 않으면 크기가 0인 배열이 생성된다. (입력된 매개변수가 없을 때, JVM이 null 대신 0인 배열을 생성하여 args에 전달하도록 구현됨)
  */
 public class ArrayEx16 {
     public static void main(String[] args) {
