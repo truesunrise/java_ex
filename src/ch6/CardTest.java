@@ -1,5 +1,9 @@
 package ch6;
 
+/**
+ * 인스턴스 변수 : 인스턴스가 생성될 때마다 생성 => 인스턴스마다 각기 다른 값을 유지
+ * 클래스 변수 : 모든 인스턴스가 하나의 저장공간을 공유 => 항상 공통된 값을 갖는다.
+ */
 public class CardTest {
     public static void main(String args[]) {
         // 클래스 변수(static 변수)는 객체 생성 없이 '클래스명.클래스변수'로 직접 사용 가능하다.
